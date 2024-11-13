@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria DEV.F</title>
+</head>
+<body>
+
+    <h1>Pizzeria DEV.F</h1>
+    <br>
+    <br>
+    <div>
+    <h3>Datos cliente</h3>
+
+        <form>
+            <label for="nombre">Nombre</label>
+            <input 
+            type="text"
+            name="nombre"
+            placeholder="Ingresa tu nombre"
+            minlength="2"
+            required>
+            <br>
+            <br>
+            <label for="apellido">Apellido</label>
+            <input 
+            type="text"
+            name="apellido"
+            placeholder="Ingresa tu apellido"
+            minlength="2"
+            required>
+            <br>
+            <br>
+            <label for="email">E-mail</label>
+            <input 
+            type="text"
+            name="email"
+            placeholder="Ingresa tu e-mail"
+            minlength="2"
+            required>
+            <br>
+            <br>          
+            <label for="hora de entrega">Hora de entrega apropiada</label>
+            <input 
+            type="time"
+            name="hora de entrega"
+            required>
+            <br>
+        </form>
+    </div>
+
+    <div>
+    <h3>Pedido</h3>
+
+        <form >
+        <label for="tipo_de_pizza">Selecciona tu pizza</label>
+        <select name="tipo_de_pizza">
+            <option value="napolitana">Pizza Napolitana</option>
+            <option value="pepperoni">Pizza Pepperoni</option>
+            <option value="vegana">Pizza Vegana</option>
+            <option value="quesos">Pizza 4 quesos</option>
+        </select>
+        </form>
+        <br>
+        <br>
+        <button type="submit">Realizar pedido</button>
+
+    </div>
+    
+</body>
+
+
+</html>
