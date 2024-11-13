@@ -1,0 +1,21 @@
+body{
+    background: fixed;
+    background-color: #F2D398;
+    text-align: center;
+    color: #DE1A1A;
+
+}
+
+h1{ font-size: 65px;}
+
+input{
+    border: #E8EBF7;
+    border-radius: 4px;
+}
+
+
+.datos_cliente {
+    text-align: center;
+    background-color: #E8EBF7;
+    padding: 10px;
+}
